@@ -18,7 +18,7 @@ class ww2{
 class world:public ww1, public ww2{
 	public:
 		void india(){
-				ww2::india();
+				ww2::india();///Ambiguity resolution///
 		}
 };
 int main()
